@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Rodando o backend local
+
+É nescessario rodar o comando `json-server --watch db.json --port 3000` em um terminal, e também sera nescessario rodar em um outro terminal o comando `ng serve` para rodar o ambiente do Angular.
+
+## EndPoints do Json server
+
+index
+-- http://localhost:3000/
+
+endpoints
+-- http://localhost:3000/products
+-- http://localhost:3000/clients
+-- http://localhost:3000/managers
